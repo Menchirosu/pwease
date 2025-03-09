@@ -44,7 +44,7 @@
             margin: 20px 0;
             font-family: monospace;
             font-size: 16px;
-            word-break: break-all;
+            word-break: break-word;
         }
         .buy-btn {
             display: inline-block;
@@ -84,18 +84,19 @@
 <body>
     <div class="container">
         <div class="gif-container">
-            <!-- Using your provided GIF URL -->
             <img src="https://i.imgur.com/PgRCwOt.gif" alt="BOP Meme Animation" />
         </div>
         
+        <!-- Contract Address Display -->
         <div class="contract-address">
-            
+            <strong>Contract Address:</strong> <br>
+            <span id="contract">6E3HFF6DWALyreJqtaW2MKbD5WPX88JTSp7oXAycpump</span>
         </div>
         
-        <a href="#" class="buy-btn">Buy BOP</a>
+        <!-- Buy Button -->
+        <a href="https://pump.fun/coin/6E3HFF6DWALyreJqtaW2MKbD5WPX88JTSp7oXAycpump" target="_blank" class="buy-btn">Buy BOP</a>
         
         <div class="additional-image">
-            <!-- Using your provided image URL -->
             <img src="https://i.imgur.com/k3KKY99.png" alt="BOP Additional Image" />
         </div>
     </div>
